@@ -1,6 +1,15 @@
+<<<<<<< Updated upstream
 # I'm not late
 
 Mint yours at: https://imnotlate.on.fleek.co/
+=======
+# Arthera Whitepaper NFT Contracts
+
+The NFT gives you access to the Arthera Whitepaper.
+
+- UI Github repo: https://github.com/w3hc/awp-ui 
+- Web app: https://whitepaper.arthera.net/
+>>>>>>> Stashed changes
 
 ## Install
 
@@ -36,9 +45,13 @@ npx hardhat run scripts/deploy.ts --network arthera-testnet
 npx hardhat run scripts/mint.ts --network arthera-testnet
 ```
 
-## Latest deployment
+## Metadata
 
+<<<<<<< Updated upstream
 - [June-25-2023 17:38:39 PM +02:00 UTC](https://explorer-test.arthera.net/address/0xe2c7afe278BD3B60798208F84281A4e4733d1688)
+=======
+[View the json file on Web3.Storage](https://bafybeifkpdwa4tkbbze5qui3yn2ph5cntiiojmdlkoxah5fs4mc55b3vt4.ipfs.w3s.link/arthera-whitepaper-nft-metadata.json).
+>>>>>>> Stashed changes
 
 ## Listing NFT holders
 
