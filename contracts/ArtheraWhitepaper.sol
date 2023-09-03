@@ -10,13 +10,8 @@ import "@openzeppelin/contracts/utils/cryptography/draft-EIP712.sol";
 import "@openzeppelin/contracts/token/ERC721/extensions/draft-ERC721Votes.sol";
 import "@openzeppelin/contracts/utils/Counters.sol";
 
-<<<<<<<< Updated upstream:contracts/Imnotlate.sol
-/// @custom:security-contact julien@strat.cc
-contract Imnotlate is
-========
 /// @custom:security-contact julien.arthera@arthera.net
 contract ArtheraWhitepaper is
->>>>>>>> Stashed changes:contracts/ArtheraWhitepaper.sol
     ERC721,
     ERC721Enumerable,
     ERC721URIStorage,
@@ -33,11 +28,7 @@ contract ArtheraWhitepaper is
 
     constructor(
         string memory _uri
-<<<<<<<< Updated upstream:contracts/Imnotlate.sol
-    ) ERC721("Imnotlate", "INL") EIP712("Imnotlate", "1") {
-========
     ) ERC721("Arthera Whitepaper", "WP") EIP712("Arthera Whitepaper", "1") {
->>>>>>>> Stashed changes:contracts/ArtheraWhitepaper.sol
         uri = _uri;
     }
 

@@ -2,26 +2,13 @@ import { loadFixture } from "@nomicfoundation/hardhat-network-helpers";
 import { expect } from "chai";
 import { ethers } from "hardhat";
 
-<<<<<<<< Updated upstream:test/Imnotlate.ts
-describe("Imnotlate", function () {
-========
 describe("Arthera Whitepaper", function () {
->>>>>>>> Stashed changes:test/ArtheraWhitepaper.ts
 
   async function deployContracts() {
-    
     const [alice, bob] = await ethers.getSigners()
-
-<<<<<<<< Updated upstream:test/Imnotlate.ts
-    const uri = "ipfs://bafkreih2ac5yabo2daerkw5w5wcwdc7rveqejf4l645hx2px26r5fxfnpe"
-    const Imnotlate = await ethers.getContractFactory("Imnotlate");
-    const nft = await Imnotlate.deploy(uri as any);
-========
     const uri = "https://bafybeifkpdwa4tkbbze5qui3yn2ph5cntiiojmdlkoxah5fs4mc55b3vt4.ipfs.w3s.link/arthera-whitepaper-nft-metadata.json"
     const AWP = await ethers.getContractFactory("ArtheraWhitepaper");
     const nft = await AWP.deploy(uri as any);
->>>>>>>> Stashed changes:test/ArtheraWhitepaper.ts
-
     return { nft, alice, bob, uri }
   }
 
