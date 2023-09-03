@@ -6,11 +6,7 @@ async function main() {
   const [issuer] = await ethers.getSigners()
   const contractAddress = '0xe2c7afe278BD3B60798208F84281A4e4733d1688'
   const abiDir = __dirname + '/../artifacts/contracts';
-<<<<<<< Updated upstream
-  const nftAbiContract = abiDir + "/" + "Imnotlate.sol" + "/" + "Imnotlate" + ".json"  
-=======
   const nftAbiContract = abiDir + "/" + "ArtheraWhitepaper.sol" + "/" + "ArtheraWhitepaper" + ".json"  
->>>>>>> Stashed changes
   let nftAbi;
   try {
     nftAbi = JSON.parse(fs.readFileSync(nftAbiContract,{encoding:'utf8', flag:'r'}));
